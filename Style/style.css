@@ -1,0 +1,38 @@
+.main_bg{
+ 
+background-color: rgb(0, 19, 71);
+color: rgb(140, 148, 246);
+
+}
+.head{
+  background-color: rgb(140, 148, 246);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid blue;
+  color: rgb(2, 2, 71);
+  border-radius: 0 60% 0 60%;
+  width: 40%;
+  height: fit-content;
+  padding: 3px;
+  box-shadow: 0 0 5px rgb(140, 148, 246);
+}
+.mybtn{
+  border: 2px solid blue;
+ background-color: rgb(43, 47, 60);
+ color: rgb(140, 148, 246);
+}
+.mybtn:hover{
+  background-color: rgb(140, 148, 246);
+  color: rgb(43, 47, 60)
+}
+.bor{
+  border: 3px solid blue;
+ background-color: rgb(140, 148, 246);
+color: rgb(2, 2, 71);
+border-radius: 10px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
